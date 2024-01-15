@@ -1,0 +1,1 @@
+# salesmagiq_client
