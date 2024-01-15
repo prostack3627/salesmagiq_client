@@ -1,7 +1,7 @@
 "use client";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Search } from "react-feather";
 import axios from "axios";
 import qs from "qs";
