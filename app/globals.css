@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus {
+  outline: 2px solid #3b368d;
+}
+
+textarea:focus {
+  outline: 2px solid #3b368d;
+}
+
+select:focus {
+  outline: 2px solid #3b368d;
+}
+
+.listBack {
+  background: url(../public/assets/img/img2.jpg);
+  object-fit: fill;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.postBack {
+  background: url(../public/assets/img/img3.jpg);
+  object-fit: fill;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.listHeight {
+  min-height: calc(100vh - 553px);
+}
